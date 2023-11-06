@@ -1,0 +1,76 @@
+
+
+main{
+    width:70%;
+    margin:0 auto;
+    background:rgba(173, 219, 234,0.9);
+    overflow:hidden;
+}
+.title{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding:1rem;
+    border-bottom: 3px solid rgb(186, 173, 173);
+
+}
+.title a{
+    text-decoration: none;
+    background:rgb(0, 128, 0,0.4);
+    padding:6px 7px;
+}
+.section{
+    padding:1rem;
+    color:white;
+    display:flex;
+}
+.section1{
+    border-right:5px solid lightgrey;
+    flex:1;
+    background:rgba(138, 150, 138,0.4);
+    overflow-y:scroll;
+
+}
+.section1 h6{
+    background:lightgrey;
+    padding:4px 3px;
+    width:60%;
+}
+
+.section2{
+    flex:2;
+    background:white;
+    padding-left:5px;
+    padding-right:5px;
+    max-height:15rem;
+    overflow-y: scroll;
+    /* height:7rem; */
+
+}
+.chatComponent{
+    background:grey;
+    margin-bottom: 7px;
+    overflow-wrap:break-word;
+}
+
+.chatComponent p {
+    font-size: 8px;
+}
+
+.sender{
+    padding-left: 3rem;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+.sender input{
+    display:inline-block;
+    width:80%;
+    height:7%;
+    border:none;
+    outline:none;
+}
+.sender button{
+    height:7%;
+}
